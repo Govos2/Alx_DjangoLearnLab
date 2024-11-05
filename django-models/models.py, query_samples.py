@@ -1,6 +1,3 @@
-cp -r Introduction_to_Django django-models
-cd django-models
-python manage.py startapp relationship_app
 from django.db import models
 class Author(models.Model):
     name = models.CharField(max_length=100)
