@@ -2,4 +2,3 @@ pip install django
 django-admin startproject LibraryProject
 cd LibraryProject
 touch README.md
-python manage.py runserver
